@@ -59,7 +59,7 @@
       <label for="email">Email</label>
       <input required type="text" id="email" bind:value={email} />
     </div>
-    <button type="submit" name="pay" value="pay" on:click={payWithPaystack}>Pay Now</button>
+    <button type="submit" name="pay" value="pay" on:click={payWithPaystack}>Pay Once</button>
     <button type="submit" name="subscribe" value="subscribe" on:click={subscribeWithPaystack}
       >Subscribe</button>
   </form>
