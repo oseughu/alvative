@@ -49,15 +49,15 @@
   <form class="checkout-form">
     <div class="checkout-field">
       <label for="amount">Amount</label>
-      <input required type="number" bind:value={amount} />
+      <input required type="number" id="amount" bind:value={amount} />
     </div>
     <div class="checkout-field">
       <label for="name">Name</label>
-      <input required type="text" bind:value={name} />
+      <input required type="text" id="name" bind:value={name} />
     </div>
     <div class="checkout-field">
       <label for="email">Email</label>
-      <input required type="email" bind:value={email} />
+      <input required type="text" id="email" bind:value={email} />
     </div>
     <button type="submit" name="pay" value="pay" on:click={payWithPaystack}>Pay Once</button>
     <button type="submit" name="subscribe" value="subscribe" on:click={subscribeWithPaystack}
